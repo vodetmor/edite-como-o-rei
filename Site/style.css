@@ -115,6 +115,19 @@ body {
 }
 
 /* 1. HERO SECTION */
+.top-nav {
+    padding: var(--spacing-md) 0 0 0;
+    width: 100%;
+}
+.nav-logo {
+    max-width: 120px;
+    display: block;
+    margin-left: 0;
+    opacity: 0.8;
+}
+
+.text-left { text-align: left; }
+
 .hero-wrapper {
     padding-top: 30px;
     padding-bottom: 50px;
@@ -125,14 +138,10 @@ body {
     align-items: center;
     gap: 40px;
 }
-.hero-logo {
-    max-width: 250px;
-    margin-bottom: 30px;
-}
 .main-title {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     font-weight: 900;
-    line-height: 1.1;
+    line-height: 1.2;
     margin-bottom: 20px;
 }
 .main-subtitle {
@@ -162,7 +171,7 @@ body {
     .hero-image-box {
         flex: 1;
     }
-    .main-title { font-size: 3rem; }
+    .main-title { font-size: 2.1rem; }
 }
 
 /* 2. SHOWCASE (Carousel/Grid) */
